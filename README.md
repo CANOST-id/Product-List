@@ -1,6 +1,8 @@
-# ProductList
+# Product List
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.15.
+This project is a **Product List** and serves as a **training project** as part of the Developer Akademie curriculum.
+
+It was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.15.
 
 ## Development server
 
