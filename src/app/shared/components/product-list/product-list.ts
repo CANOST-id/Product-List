@@ -13,21 +13,21 @@ export class ProductList {
       "description": "Eine ergonomische Gaming-Maus mit hoher Präzision und einstellbarer DPI.Ideal für FPS- und MOBA - Spiele, bietet sie eine langlebige Bauweise und komfortable Seitentasten für schnelles Reagieren.",
       "specs": "dpi: 6400, cable length: 1.8m, color: Schwarz",
       "stock": 120,
-      "price": 29.99
+      "price": 2999000
     },
     {
       "name": "USB-C Kabel",
       "description": "Robustes Ladekabel für Smartphones, Tablets und Laptops. Unterstützt schnelles Laden und Datenübertragung.Perfekt für den täglichen Einsatz zu Hause, im Büro oder unterwegs.",
       "specs": "length: 1m, color: Weiß, type: USB-C zu USB-A",
       "stock": 300,
-      "price": 4.80
+      "price": 4800
     },
     {
       "name": "Mechanische Tastatur",
       "description": "Hochwertige mechanische Tastatur mit RGB-Hintergrundbeleuchtung. Die schnellen Switches sorgen für präzise Eingaben und langen Schreibkomfort.Ideal für Gamer und Vielschreiber.",
       "specs": "switches: Red, connection: USB, color: Schwarz",
       "stock": 85,
-      "price": 79.90
+      "price": 79900
     },
     {
       "name": "HDMI Kabel",
