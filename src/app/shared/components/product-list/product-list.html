@@ -10,7 +10,7 @@
             </tr>
         </thead>
         <tbody>
-            @for (item of list; track item.name; let index = $index) {
+            @for (item of list; track item.name; let index = $index;) {
             <tr [routerLink]="['detail', item.name]" role="link">
                 <td>{{item.name}}</td>
                 <td>{{item.specs}}</td>
@@ -18,13 +18,13 @@
                 <td class="price">
                     @switch (true) {
                         @case (item.price > 1000000) {
-                            {{item.price/1000000}}mio
+                            {{item.price/1000000 }}mio
                         }
                         @case (item.price > 1000) {
-                            {{item.price / 1000}}k
+                            {{item.price/1000 }}k
                         }
                         @default {
-                            {{item.price}}
+                            {{ item.price | price }} 
                         }
                     }
                 </td>

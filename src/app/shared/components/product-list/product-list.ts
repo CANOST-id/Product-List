@@ -1,9 +1,22 @@
-import { Component } from '@angular/core';
+import { Component, Pipe, PipeTransform } from '@angular/core';
 import { RouterLink } from '@angular/router';
+  
 
+@Pipe({
+  name: 'price',
+  standalone: true
+})
+export class PricePipe implements PipeTransform {
+  transform(value: number): string {
+    return new Intl.NumberFormat('de-DE', {
+      style: 'currency',
+      currency: 'EUR'
+    }).format(value);
+  }
+}
 @Component({
   selector: 'app-product-list',
-  imports: [RouterLink],
+  imports: [RouterLink, PricePipe],
   templateUrl: './product-list.html',
   styleUrl: './product-list.scss',
 })
